@@ -1,0 +1,261 @@
+.nav {
+	/*display:none;*/
+}
+
+.landing {
+	width:100%;
+	height:100%;
+	background:url(../images/background.jpg);
+	background-size:cover;
+}
+
+.landing-center {
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+	text-align:center;
+}
+
+.landing-icon {
+	width:10rem;
+	margin-top:2rem;
+}
+
+.landing-arrow {
+	position:absolute;
+	color:#FFFFFF;
+	opacity:0.8;
+	margin-top:-6rem;
+	top:100%;
+	left:50%;
+	font-size:3rem;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.showcase-section {
+	/*background: rgb(238,238,238); /* Old browsers */
+	/*background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.showcase-section:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.showcase-left {
+	float:left;
+	width:50%;
+	padding:2rem;
+}
+
+.showcase-right {
+	float:right;
+	width:50%;
+	padding:2rem;
+}
+
+.showcase-text {
+	width:100%;
+	max-width:500px;
+	text-align:left;
+	padding-top:5rem;
+	font-size:1.8rem;
+	line-height:2.8rem;
+	font-family:Roboto;
+	font-weight:300;
+	margin-top:20%;
+}
+
+.center {
+	text-align:center;
+}
+
+.screenshot0 {
+	width:100%;
+	max-width:400px;
+	padding:2rem;
+}
+
+.interested {
+	font-size:1.8rem;
+	line-height:2.8rem;
+	font-family:Roboto;
+	font-weight:300;
+	padding:1rem;
+	text-align:center;
+}
+
+.invitation-form {
+	padding:1rem;
+}
+
+.invitation-form input {
+	width:100%;
+	max-width:600px;
+	outline:none;
+	padding:0.5rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	border-radius:2rem;
+	text-align:center;
+	border:1px solid #888888;
+}
+
+.invitation-form input:focus {
+	border:1px solid #47bfbd;
+}
+
+.invitation-form button {
+	width:100%;
+	max-width:600px;
+	margin-top:1rem;
+	color:#FFFFFF;
+	background:#47bfbd;
+	padding:0.5rem;
+	border-radius:2rem;
+	border:1px solid rgba(0,0,0,0.2);
+}
+
+.invitation-form button:hover {
+	background:#30b3b1;
+}
+
+.invitation-form button:active {
+	background:#32a4a2;
+}
+
+.invitation-form .error {
+	background:#FF4444;
+}
+
+.invitation-form .error:hover {
+	background:#DD2222;
+}
+
+.invitation-form .error:active {
+	background:#CC0000;
+}
+
+.demo-wrapper {
+	width:100%;
+	max-width:310px;
+	margin:auto;
+}
+
+.demo {
+	width:100%;
+	padding-bottom:196%;
+	position:relative;
+}
+
+.demo .phone {
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background:url(../images/phone.png);
+	background-size:contain;
+}
+
+.phone-content {
+	position:absolute;
+	top:11.3%;
+	bottom:10.5%;
+	left:7.1%;
+	right:6.5%;
+	overflow:hidden;
+	background:#F0F0F0;
+	border:1px solid #CCCCCC;
+}
+
+.phone-messages {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	height:90%;
+	overflow:hidden;
+	overflow-y:auto;
+	padding:3%;
+}
+
+.phone-textbox {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:10%;
+	background:#EAEAEA;
+	border-top:1px solid #CCCCCC;
+	padding:3%;
+}
+
+.phone-textbox input {
+	width:100%;
+	height:100%;
+	padding:2%;
+	border-radius:1%;
+	border:1px solid #CCCCCC;
+	outline:none;
+}
+
+.message {
+	width:100%;
+	padding:3%;
+	padding-left:4%;
+	padding-right:4%;
+	border-radius:0.7rem;
+	text-align:left;
+	margin-bottom:4%;
+}
+
+.message.other {
+	background:#DDDDDD;
+	color:#000000;
+}
+
+.message.self {
+	background:#44CC44;
+	color:#FFFFFF;
+}
+
+@media (max-width:768px) {
+
+	.showcase-left {
+		width:100%;
+		padding-bottom:0;
+	}
+
+	.showcase-right {
+		width:100%;
+		padding-bottom:0;
+	}
+
+	.showcase-section {
+		padding-bottom:15rem;
+	}	
+
+	.showcase-text h3 {
+		text-align:center;
+		padding-top:0;
+	}
+
+	.showcase-text {
+		margin-top:0;
+		text-align:center;
+	}
+
+}

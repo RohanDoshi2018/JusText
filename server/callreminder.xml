@@ -1,0 +1,4 @@
+<Response>
+	<Say voice="alice">This is your automated call from Just Text</Say>
+	<Play>http://api.justext.me/callreminder.mp3</Play>
+</Response>
